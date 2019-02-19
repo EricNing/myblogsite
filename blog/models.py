@@ -16,4 +16,4 @@ class Blog(models.Model):
     last_updated_time = models.DateTimeField(auto_now_add=True)
 
     # def __str__(self):
-        # return "<Blog: %s>" % self.title
+    #     return "<Blog: %s>" % self.title
